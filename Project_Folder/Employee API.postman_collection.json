@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "a08ca76b-225b-460a-9a95-bcc28189a503",
+		"name": "Employee API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "36031561"
+	},
+	"item": [
+		{
+			"name": "All Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/Employees\n"
+			},
+			"response": []
+		},
+		{
+			"name": "One Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/employees/\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:3000/employees\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Employee",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:3000/employees/\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Employee",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/employees/\n"
+			},
+			"response": []
+		}
+	]
+}
